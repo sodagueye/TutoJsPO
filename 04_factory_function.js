@@ -3,7 +3,7 @@
 const utilisateur =(noms ,email, ...amis) =>{
 return{
     noms , email , amis,
-    login(){
+    login(){--
     console.log(`${email} est connecte`)
     },
     logout (){

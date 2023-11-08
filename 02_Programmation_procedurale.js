@@ -19,17 +19,19 @@ const nomUtil3 = "comba gueye";
 const mailUtil3 = "examplenom4@gmail.com";
 const amiUtil3 = ["nogaye", "diakhou"];
 console.log(`Nom : ${nomUtil3}`);
+console.log(nomUtil3)
+console.log("nom:" + nomUtil3)
 console.log(`Mail : ${mailUtil3}`);
  console.log(`Ami : ${amiUtil3}`);
 console.log('');
 
 
 // fonction
-function login(mail){
-    console.log(`${mail} est connecté(e)`);
+function login(test){
+    console.log(`${test} est connecté(e)`);
 }
 function logout(mail){
     console.log(`${mail} est deconnecté(e)`);
 }
-login( nomUtil1);
+login(mailUtil1);
 logout( nomUtil1);
